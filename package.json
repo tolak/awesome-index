@@ -1,0 +1,13 @@
+{
+  "name": "awesome-index",
+  "version": "0.1.0",
+  "description": "Play with inDEX protocol",
+  "main": "index.js",
+  "author": "Wenfeng Wang",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@phala/index": "^1.0.5",
+    "ethers": "^6.7.1"
+  }
+}
