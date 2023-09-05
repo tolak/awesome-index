@@ -8,7 +8,7 @@ The execution plan is (not optimized, just for demo purposes):
 ```
 1.1 Swap Moonbeam/GWLMR to Moonbeam/xcDOT on StellaSwap
 1.2 Swap Moonbeam/xcDOT to Moonbeam/xcPHA on StellaSwap
-1.2 Bridge Moonbeam/xcPHA to Phala/PHA over Moonbeam XCM bridge
+1.3 Bridge Moonbeam/xcPHA to Phala/PHA over Moonbeam XCM bridge
 
 2 Bridge Phala/PHA to Astar/PHA over Phala XCM Bridge
 
