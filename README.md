@@ -1,7 +1,7 @@
 ## Play with inDEX Protocol
 
 This repo contains the simple code to show how to interact with inDEX protocol with
-inDEX SDK.
+[inDEX SDK](https://github.com/Phala-Network/index-sdk).
 
 From this example, we are going to swap 1 WGLMR on Moonbeam to GLMR on Astar Evm environment.
 The execution plan is (not optimized, just for demo purposes):
