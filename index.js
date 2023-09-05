@@ -1,5 +1,5 @@
 const ethers = require('ethers')
-const {ASSETS, Executor, Environment} = require('@phala/index')
+const {ASSETS, Client, Environment} = require('@phala/index')
 const solution_Moonbeam_WGLMR_Astar_GLMR = require('./test-solution.json')
 
 async function main() {
@@ -8,9 +8,9 @@ async function main() {
         new ethers.JsonRpcProvider('https://rpc.api.moonbeam.network')
     )
 
-    const executor = new Executor({environment: Environment.TESTNET})
-    await executor.isReady
-    const moonbeam = executor.createEvmChain('Moonbeam')
+    const indexClient = new Client({environment: Environment.TESTNET})
+    await indexClient.isReady
+    const moonbeam = indexClient.createEvmChain('Moonbeam')
     const asset = ASSETS.Moonbeam.WGLMR
     const recipient = '0xA29D4E0F035cb50C0d78c8CeBb56Ca292616Ab20'
     // 1 WGLMR
