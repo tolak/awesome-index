@@ -21,7 +21,7 @@ The execution plan is (not optimized, just for demo purposes):
 
 ## Getting started
 
-Fill in your private key at here
+Fill in your private key and recipient address on dest chain,
 
 ```javascript
 const wallet = new ethers.Wallet(

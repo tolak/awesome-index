@@ -12,7 +12,7 @@ async function main() {
     await indexClient.isReady
     const moonbeam = indexClient.createEvmChain('Moonbeam')
     const asset = ASSETS.Moonbeam.WGLMR
-    const recipient = '0xA29D4E0F035cb50C0d78c8CeBb56Ca292616Ab20'
+    const recipient = '<your account address on dest chain>'
     // 1 WGLMR
     const amount = '1000000000000000000'
     const deposit = await moonbeam.getDeposit(
