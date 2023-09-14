@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@phala/index": "^1.0.6",
+    "@phala/index": "^1.0.27",
     "ethers": "^6.7.1"
   }
 }

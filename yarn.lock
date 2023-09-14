@@ -51,16 +51,17 @@
   resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
   integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
 
-"@phala/index@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@phala/index/-/index-1.0.6.tgz#1c8f7abd1ebf4ace24f5d7d6918b6bfc369c9d2c"
-  integrity sha512-G9Wz7NPVqYBebamBQlQ11RtHCA6NetxIGx30v75HDT/+1W7YVeQU2mnZ49mwDEsI/dPoJuI5CztteC/AQMuJiQ==
+"@phala/index@^1.0.27":
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/@phala/index/-/index-1.0.27.tgz#e25b7915ee797dfc9a1df0089d11798c374acff0"
+  integrity sha512-9y++Lafmuu87FT8m0meDbD2JeYEe0uvmtZ5B2fwuj6YfgOWNL/nMZsZr2SIeXw/+bpY3jRKAbj0FTks0l1gWQw==
   dependencies:
     "@phala/sdk" "^0.5.1-nightly-20230905"
     "@polkadot/api" "^10.9.1"
     "@polkadot/keyring" "^12.4.2"
     ajv "^8.12.0"
     ethers "^6.7.1"
+    subshape "^0.14.0"
 
 "@phala/sdk@^0.5.1-nightly-20230905":
   version "0.5.1-nightly-20230905"
@@ -1072,6 +1073,11 @@ string_decoder@^1.1.1:
   integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
   dependencies:
     safe-buffer "~5.2.0"
+
+subshape@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/subshape/-/subshape-0.14.0.tgz#6a9636f9a1cb8ec57022bcd09a14d4b42a56b3e5"
+  integrity sha512-Ijl2meay3TeDb6OuDf2prE6zPpK2y+nu6rvBpc6gpC+BNAJhOyT9AE/bFgufmBvQ+/xA07ZqZO4/UawT1sde6A==
 
 tslib@2.4.0:
   version "2.4.0"
