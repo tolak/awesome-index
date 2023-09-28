@@ -18,7 +18,7 @@ The execution plan is (not optimized, just for demo purposes):
 4.1 Swap AstarEvm/PHA to AstarEvm/WASTR on ArthSwap
 4.2 Swap AstarEvm/WASTR to AstarEvm/GLMR on ArthSwap
 ```
-1, 2, 3, 4 represent for dedicated transaction that will happen on the source chain, see [the solution](./Moonbeam_GLMR_AstarEvm_GLMR.json) (or called execution plan) for more details.
+1, 2, 3, 4 represent for dedicated transaction that will happen on the source chain, see [the solution](./solutions/Moonbeam_GLMR_AstarEvm_GLMR.json) (or called execution plan) for more details.
 
 ## Getting started
 

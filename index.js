@@ -1,6 +1,6 @@
 const ethers = require('ethers')
 const {ASSETS, Client, Environment} = require('@phala/index')
-const solution_Moonbeam_GLMR_AstarEvm_GLMR = require('./Moonbeam_GLMR_AstarEvm_GLMR.json')
+const solution_Moonbeam_GLMR_AstarEvm_GLMR = require('./solutions/Moonbeam_GLMR_AstarEvm_GLMR.json')
 
 async function main() {
     const wallet = new ethers.Wallet(
