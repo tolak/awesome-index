@@ -1,0 +1,16 @@
+[
+    {
+      "exe": "khala_bridge_to_ethereum",
+      "sourceChain": "Khala",
+      "destChain": "Ethereum",
+      "spendAsset": "0x0000",
+      "receiveAsset": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E"
+    },
+    {
+      "exe": "ethereum_sygmabridge_to_phala",
+      "sourceChain": "Ethereum",
+      "destChain": "Phala",
+      "spendAsset": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
+      "receiveAsset": "0x0000"
+    }
+]
