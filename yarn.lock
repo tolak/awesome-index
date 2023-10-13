@@ -58,10 +58,10 @@
   resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
   integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
 
-"@phala/index@^1.0.34":
-  version "1.0.34"
-  resolved "https://registry.yarnpkg.com/@phala/index/-/index-1.0.34.tgz#7f09aa80762e2044af58b8c25ee53b20d546d6f1"
-  integrity sha512-+v6EcAV2PWMYgl1Kl6VpUZ/B21RZj+B677/wfikR7GRlrLvLqkT7d8Lt7+Wrj0j7ZofiaWEUbbWRBFgTDklasQ==
+"@phala/index@^1.0.36":
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/@phala/index/-/index-1.0.36.tgz#76fc8c0dbad51b409237bf37783cc4d3da2bf8b0"
+  integrity sha512-cRp+RrNIbNOrw/7S6c/CeNTebz1+eDof7TedtszkbFM8UfU6lsKAq9nttmUk+MKhFE7ZsGFd19PhyAuAF4zMGw==
   dependencies:
     "@phala/sdk" "^0.5.2"
     "@polkadot/api" "^10.9.1"
